@@ -15,7 +15,7 @@ public class MySpringJenkinAppApplication {
 
 	public static Logger logger = LoggerFactory.getLogger(MySpringJenkinAppApplication.class);
 
-	@GetMapping("/msg")
+	@GetMapping("/call")
 	public String message() {
 		return "Wao!! Application Deployed successfully in SAP Cloud..";
 	}
@@ -27,7 +27,7 @@ public class MySpringJenkinAppApplication {
 	}
 	
 	public static void main(String[] args) {
-		logger.info("I am also newely added log statement------ started !!");
+		logger.info("I am also newely added log statement print-------- started !!");
 		SpringApplication.run(MySpringJenkinAppApplication.class, args);
 	}
 
