@@ -22,13 +22,12 @@ public class MySpringJenkinAppApplication {
 	
 	@PostConstruct
 	public void init() {
-		logger.info("Application started !!");
-		logger.info("Added now Application started !!");
+		logger.info("Hi I am newley added ...Application started !!");
 
 	}
 	
 	public static void main(String[] args) {
-		logger.info("Second log statement------ started !!");
+		logger.info("I am also newely added log statement------ started !!");
 		SpringApplication.run(MySpringJenkinAppApplication.class, args);
 	}
 
